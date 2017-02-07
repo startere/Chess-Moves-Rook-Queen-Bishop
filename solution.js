@@ -26,7 +26,7 @@ function solve(params)
             move = params[rows + 3 + i];
             origin = move.split(" ")[0];
             destination = move.split(" ")[1];
-            originarr = [origin.charCodeAt(0) - 97,
+            originarr = [origin.charCodeAt(0) - 97, 
                         rows - origin[1]];
             destinarr = [destination.charCodeAt(0) - 97,
                         rows - destination[1]];
