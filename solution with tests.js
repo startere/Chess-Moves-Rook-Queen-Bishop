@@ -86,7 +86,7 @@ function solve(params)
                            {row = row + deltarow/Math.abs(deltarow)}
                           
                        if(col !== destinarr[0]) 
-                           {col = col + deltacol/Math.abs(deltacol)}
+                           {col = col + deltacol/Math.abs(deltacol)} 
                         if(board[row][col] !== '-') 
                             {
                               if(!(row == originarr[1] 
